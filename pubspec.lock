@@ -50,6 +50,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.5"
+  d_view:
+    dependency: "direct main"
+    description:
+      name: d_view
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.3"
   fake_async:
     dependency: transitive
     description:
