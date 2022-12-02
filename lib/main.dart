@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:utapes_app/pages/home/main_page.dart';
 import 'package:utapes_app/pages/sign_in_page.dart';
+import 'package:utapes_app/pages/sign_up_page.dart';
 import 'package:utapes_app/pages/splash_page.dart';
 
 void main() => runApp(MyApp());
@@ -12,6 +14,8 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => SplashPage(),
         '/sign-in': (context) => SignIn(),
+        '/sign-up': (context) => SignUp(),
+        '/home': (context) => MainPage(),
       },
     );
   }

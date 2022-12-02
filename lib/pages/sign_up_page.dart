@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:utapes_app/themes.dart';
 
-class SignIn extends StatelessWidget {
-  const SignIn({super.key});
+class SignUp extends StatelessWidget {
+  const SignUp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +15,7 @@ class SignIn extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Login',
+              'Register',
               style: primaryTextStyle.copyWith(
                 fontSize: 24,
                 fontWeight: semiBold,
@@ -23,7 +23,7 @@ class SignIn extends StatelessWidget {
             ),
             DView.spaceHeight(2),
             Text(
-              'Sign In to Countinue',
+              'Register and Happy Shopping',
               style: subtitleTextStyle,
             )
           ],
@@ -94,7 +94,11 @@ class SignIn extends StatelessWidget {
           onPressed: () {
             Navigator.pushNamed(context, '/home');
           },
-          // border rad
+          style: TextButton.styleFrom(
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            ),
+          ),
           child: Text(
             'Sign in',
             style: primaryTextStyle.copyWith(
@@ -113,11 +117,11 @@ class SignIn extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Don\'t have an account? ',
+              'Already have an account? ',
               style: subtitleTextStyle,
             ),
             InkWell(
-              onTap: () => Navigator.pushNamed(context, '/sign-up'),
+              onTap: () => Navigator.pop(context),
               child: Text(
                 'Sign Up',
                 style: purpleTextStyle.copyWith(
@@ -132,7 +136,6 @@ class SignIn extends StatelessWidget {
     }
 
     return Scaffold(
-      resizeToAvoidBottomInset: false,
       backgroundColor: bgColor1,
       body: SafeArea(
         child: Container(
@@ -143,7 +146,21 @@ class SignIn extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               header(),
-              DView.spaceHeight(70),
+              DView.spaceHeight(50),
+              input(
+                'Full Name',
+                'assets/fullname.png',
+                'Your Full Name',
+                false,
+              ),
+              DView.spaceHeight(20),
+              input(
+                'Username',
+                'assets/username.png',
+                'Your Username',
+                false,
+              ),
+              DView.spaceHeight(20),
               input(
                 'Email Address',
                 'assets/email.png',
