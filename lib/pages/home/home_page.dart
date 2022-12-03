@@ -82,7 +82,7 @@ class HomePage extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
                 color: transparentColor,
                 border: Border.all(
-                  color: subtitleColor,
+                  color: biruBarca,
                 ),
               ),
               child: Text(
@@ -103,7 +103,7 @@ class HomePage extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
                 color: transparentColor,
                 border: Border.all(
-                  color: subtitleColor,
+                  color: biruBarca,
                 ),
               ),
               child: Text(
@@ -124,7 +124,7 @@ class HomePage extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
                 color: transparentColor,
                 border: Border.all(
-                  color: subtitleColor,
+                  color: biruBarca,
                 ),
               ),
               child: Text(
@@ -145,7 +145,7 @@ class HomePage extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
                 color: transparentColor,
                 border: Border.all(
-                  color: subtitleColor,
+                  color: biruBarca,
                 ),
               ),
               child: Text(
@@ -166,7 +166,7 @@ class HomePage extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
                 color: transparentColor,
                 border: Border.all(
-                  color: subtitleColor,
+                  color: biruBarca,
                 ),
               ),
               child: Text(

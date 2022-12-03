@@ -11,6 +11,7 @@ Color bgColor1 = Color(0xff1F1D2B);
 Color bgColor2 = Color(0xff2B2937);
 Color bgColor3 = Color(0xff242231);
 Color bgColor4 = Color(0xff252836);
+Color bgColor5 = Color(0xff2B2844);
 Color secondaryTextColor = Color(0xff999999);
 Color primaryTextColor = Color(0xffF1F0F2);
 Color kuningBarca = Color(0xffEDBB00);
