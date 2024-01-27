@@ -1,6 +1,6 @@
 import 'package:d_view/d_view.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 import 'package:utapes_app/themes.dart';
 
 class SignUp extends StatelessWidget {
